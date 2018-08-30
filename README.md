@@ -15,11 +15,8 @@ TWRP builds and is fully functional (hopefully).
 2) in cmd do `fastboot flash recovery <path_to_recovery_image>`
 
 ### How to enter recovery
-consequently interupt boot 5 times
-
-or
-
-in cmd do `adb reboot recovery`
+option 1: consequently interupt boot 5 times
+option 2: in cmd do `adb reboot recovery`
 
 ### How to enter fastboot
 #### Nook Glowlight Plus
