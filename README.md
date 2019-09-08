@@ -21,13 +21,7 @@ option 1: consequently interupt boot 5 times
 option 2: in cmd do `adb reboot recovery`
 
 ### How to enter fastboot
-#### Nook Glowlight Plus
 in cmd do `adb reboot fastboot`
-#### Nook Glowlight 3
-1) completely turn off device;
-2) press and hold "home" button;
-3) press and hold "power" button;
-4) wait while device turns on while holding both buttons;
 
 ### How to build TWRP
 1. `repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-5.1`
