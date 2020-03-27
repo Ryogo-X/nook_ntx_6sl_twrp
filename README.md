@@ -26,11 +26,12 @@ in cmd do `adb reboot fastboot`
 ### How to build TWRP
 1. `repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-5.1`
 2. `repo sync -n -j 1 && repo sync -l -j 4`
-3. `clone this repo to <twrp_repo>/device/NOOK/nook_ntx_generic`
-4. apply patches from `<twrp_repo>/device/NOOK/nook_ntx_generic/patches` directory
+3. `clone this repo to <twrp_repo>/device/NOOK`
+4. apply patches from `<twrp_repo>/device/NOOK/patches` directory
 5. open terminal in `<twrp_repo>` directory;
 6. `. build/envsetup.sh`
-7. `lunch omni_nook_ntx_generic-userdebug`
+7. (for GLP / GL3)`lunch omni_nook_ntx_generic-userdebug`
+7. (for GLP78)`lunch omni_nook_ntx_generic-userdebug`
 8. `mka recoveryimage`
 
 if you want to enable A2 mode:
