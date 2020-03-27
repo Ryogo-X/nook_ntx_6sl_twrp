@@ -30,8 +30,8 @@ in cmd do `adb reboot fastboot`
 4. apply patches from `<twrp_repo>/device/NOOK/patches` directory
 5. open terminal in `<twrp_repo>` directory;
 6. `. build/envsetup.sh`
-7. (for GLP / GL3)`lunch omni_nook_ntx_generic-userdebug`
-7. (for GLP78)`lunch omni_nook_ntx_generic-userdebug`
+7. (for GLP / GL3) `lunch omni_nook_ntx_generic-userdebug`
+7. (for GLP78)     `lunch omni_nook_ntx_generic-userdebug`
 8. `mka recoveryimage`
 
 if you want to enable A2 mode:
